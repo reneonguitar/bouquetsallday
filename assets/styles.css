@@ -1,0 +1,42 @@
+body { font-family: 'Lato', sans-serif; }
+
+h1 {
+  font-family: 'Averia Serif Libre', cursive;
+  color: #01533B;
+}
+
+h5 { color: #01533B; }
+
+a { color: #2f6ba5; }
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #EBEDE4;
+}
+
+.right {
+  right: 0;
+  background-color: #F1B4BB;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.middle img { width: 150px; }
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-36 { font-size: 36px; }
