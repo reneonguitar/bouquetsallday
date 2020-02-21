@@ -1,6 +1,13 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   background-color: #EBEDE4;
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
 }
 
 h1 {
@@ -10,27 +17,11 @@ h1 {
 
 h5 { color: #01533B; }
 
-a { color: #2f6ba5; }
-
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-36 { font-size: 36px; }
-
-/* Sticky footer styles */
-  html {
-    position: relative;
-    min-height: 100%;
-  }
-
-  body {
-    /* Margin bottom by footer height */
-    margin-bottom: 100px;
-  }
-
-  .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    /* Set the fixed height of the footer here */
-    height: 60px;
-    line-height: 60px; /* Vertically center the text there */
-  }
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+}
